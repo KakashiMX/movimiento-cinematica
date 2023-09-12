@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimiento</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <h1 class="title">Movimiento de cinemática</h1>
+
+    <!-- <div class="container">
+        <div class="form-car-one">
+            <div class="form-group-car-one">
+                <label for="">Velocidad Inicial</label>
+            </div>
+
+        </div>
+
+        <div class="form-car-two">
+            <div class="form-group-car-one">
+    
+            </div>
+
+        </div>
+    </div> -->
+    <form 
+        action="#"
+        class="form"
+        id="form"
+    >
+        
+        <div class="form-group">
+            <label for="" class="form-group__label">Velocidad: </label>
+            <input type="text" placeholder="Ejemplo 8, 20, 50" class="form-group__input">
+        </div>
+
+        <div class="form-group">
+            <label for="" class="form-group__label">Tiempo de inicio: </label>
+            <input type="text" placeholder="mayor o igual a 0, ejemplo 0, 1,5,6" class="form-group__input">
+        </div>
+
+        <div class="form-group">
+            <label for=""  class="form-group__label">Tiempo final: </label>
+            <input type="text" placeholder="mayor al tiempo de inicio" class="form-group__input">
+        </div>
+
+        <div class="form-group">
+            <label for="" class="form-group__label">Incremento </label>
+            <input type="text" placeholder="Ejemplo 0.5, 1, 1.5" class="form-group__input">
+        </div>
+
+        <input 
+            class="form__submit"
+            type="submit"
+            value="Calcular"
+            id="formSubmit"
+        />
+    </form>
+
+    <div class="cars-container">
+        <img 
+            src="./assets/images/car-one.png" 
+            alt=""
+            class="car car-one"
+        >
+        <img 
+            src="./assets/images/car-two.png" 
+            alt=""
+            class="car car-two"
+        >
+    </div>
+
+    <div class="table-container">
+        <table class="table">
+            
+            <!-- Cabecera de la tabla -->
+            <thead>
+                <th class="head_row">Tiempo (segundos)</th>
+                <th class="head_row">Posición (metros)</th>
+            </thead>
+
+            <!--  Cuerpo -->
+            <tbody id="tableBody">
+                <!-- Fila -->
+                <tr class="table_row">
+                    <!-- Celda de cada fila -->
+                    
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
